@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# \# Coding Café
 
 # 
@@ -23,4 +24,5 @@
 # \- `lab3/` — conditionals and loops
 
 # \- `lab4/` — git and github
+
 
