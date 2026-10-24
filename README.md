@@ -1,60 +1,48 @@
 # Coding Café | FM102
 
-This repository contains my lab work, exercises, and practice files for **Coding Café (FM102)**.
+Coursework, notebooks, and small Python experiments for **Coding Café (FM102)**.
 
-**Name:** Adhyayan Sharma  
-**Roll Number:** U20260011
+**Student:** Adhyayan Sharma
+**Roll number:** U20260011
 
----
+## Labs
 
-## About the Repository
+| Lab | Topic | Main work |
+| --- | --- | --- |
+| [01](./labs/lab-01-terminal/) | Terminal foundations | Command-line exercise notes |
+| [02](./labs/lab-02-python-fundamentals/) | Python fundamentals | Variables, data types, operators, strings, and input/output |
+| [03](./labs/lab-03-conditionals-loops/) | Conditionals and loops | Branching, Boolean logic, loops, and iteration patterns |
+| [04](./labs/lab-04-git-github/) | Git and GitHub | Version-control exercise notes |
+| [05](./labs/lab-05-functions-file-handling/) | Functions and file handling | Functions, modules, arguments, scope, and files |
+| [06](./labs/lab-06-data-structures-csv/) | Data structures and CSV files | Lists, sets, tuples, dictionaries, CSV reading, and capstones |
 
-The repository documents my progress through the Coding Café course, starting from terminal fundamentals and gradually moving towards Python programming, Git, GitHub, and structured programming concepts.
-
-Each lab is stored in a separate folder along with the relevant code, exercises, and supporting files.
-
----
-
-## Contents
-
-| Lab | Topic | Description |
-|---|---|---|
-| [Lab 1](./lab1/) | Terminal | Basic terminal navigation, file handling, directories, and command-line operations |
-| [Lab 2](./lab2/) | Python Fundamentals | Variables, data types, operators, input/output, and basic Python syntax |
-| [Lab 3](./lab3/) | Conditionals & Loops | Conditional statements, logical operations, loops, and control flow |
-| [Lab 4](./lab4/) | Git & GitHub | Version control, repositories, commits, branches, pushing, pulling, and collaboration |
-| [Lab 5](./lab5/) | Functions & File Handling | Functions, control flow, modules, data handling, file handling, arguments and parameters, and variable scope |
-
----
-
-## Technologies Used
-
-- Python
-- PowerShell / Terminal
-- Git
-- GitHub
-- Visual Studio Code
-
----
-
-## Repository Structure
+## Repository layout
 
 ```text
-Coding-Cafe/
-│
-├── lab1/
-│   └── Terminal exercises
-│
-├── lab2/
-│   └── Python fundamentals
-│
-├── lab3/
-│   └── Conditionals and loops
-│
-├── lab4/
-│   └── Git and GitHub
-│
-├── lab5/
-│   └── Functions, modules, scope, and file handling
-│
+coding-cafe/
+├── labs/                         # One numbered directory per course lab
+│   ├── lab-01-terminal/
+│   ├── lab-02-python-fundamentals/
+│   ├── lab-03-conditionals-loops/
+│   ├── lab-04-git-github/
+│   ├── lab-05-functions-file-handling/
+│   └── lab-06-data-structures-csv/
+├── practice/                     # Independent Python experiments
 └── README.md
+```
+
+## Working with the notebooks
+
+Open any `.ipynb` file in Jupyter Notebook, JupyterLab, VS Code, or Google Colab. Run each notebook from top to bottom so earlier setup cells are available to later exercises. Lab 6 creates its sample CSV data when its first cell runs.
+
+## Tools used
+
+- Python
+- Jupyter notebooks
+- PowerShell / terminal
+- Git and GitHub
+- Visual Studio Code
+
+## Practice programs
+
+The [`practice/`](./practice/) folder contains small standalone experiments, including a sine-wave plot and a Dino Runner game prototype.
