@@ -15,6 +15,7 @@ Coursework, notebooks, and small Python experiments for **Coding Café (FM102)**
 | [04](./labs/lab-04-git-github/) | Git and GitHub | Version-control exercise notes |
 | [05](./labs/lab-05-functions-file-handling/) | Functions and file handling | Functions, modules, arguments, scope, and files |
 | [06](./labs/lab-06-data-structures-csv/) | Data structures and CSV files | Lists, sets, tuples, dictionaries, CSV reading, and capstones |
+| [07](./labs/lab-07-oop-encapsulation-abstraction/) | Objects, encapsulation, and abstraction | Classes, objects, methods, state, validation, and reusable behavior |
 
 ## Repository layout
 
@@ -26,7 +27,8 @@ coding-cafe/
 │   ├── lab-03-conditionals-loops/
 │   ├── lab-04-git-github/
 │   ├── lab-05-functions-file-handling/
-│   └── lab-06-data-structures-csv/
+│   ├── lab-06-data-structures-csv/
+│   └── lab-07-oop-encapsulation-abstraction/
 ├── practice/                     # Independent Python experiments
 └── README.md
 ```
